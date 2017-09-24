@@ -1,5 +1,5 @@
-import com.google.inject.spi.InjectionPoint;
-
+import javax.enterprise.inject.Produces;
+import javax.enterprise.inject.spi.InjectionPoint;
 import java.util.logging.Logger;
 
 public class LoggingProducer {

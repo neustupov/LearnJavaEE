@@ -1,4 +1,3 @@
-import com.jcabi.aspects.Loggable;
 
 import javax.inject.Inject;
 import java.util.Random;
