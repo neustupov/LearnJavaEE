@@ -10,7 +10,7 @@ public class BookServiceIT {
         Weld weld = new Weld();
         WeldContainer container = weld.initialize();
         BookService bookService = container.instance().select(BookService.class).get();
-        Book book = bookService.createBook("H2G2", 12.5f, "Interesting book");
+        Book book = bookService.createBook("H2G2", 12.50f, "Interesting book");
         assertTrue(book.getNumber().startsWith("MOCK"));
         weld.shutdown();
     }
