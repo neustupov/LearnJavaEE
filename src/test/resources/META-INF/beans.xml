@@ -9,6 +9,7 @@
     <alternatives>
         <class>MockGenerator</class>
     </alternatives>
+    <alternatives></alternatives>
     <interceptors>
         <class>LoggingInterceptor</class>
     </interceptors>
