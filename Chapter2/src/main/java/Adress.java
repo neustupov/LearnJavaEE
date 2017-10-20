@@ -1,0 +1,4 @@
+@ZipCode
+public class Adress {
+
+}
