@@ -8,6 +8,7 @@ public class BookServiceIT {
     @Test
     public void shouldCheckNumberIsMOCK(){
         Weld weld = new Weld();
+        System.setProperty(Weld.ARCHIVE_ISOLATION_SYSTEM_PROPERTY, "false");
         WeldContainer container = weld.initialize();
         BookService bookService = container.instance().select(BookService.class).get();
         Book book = bookService.createBook("H2G2", 12.50f, "Interesting book");

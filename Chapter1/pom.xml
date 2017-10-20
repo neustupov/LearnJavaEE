@@ -7,7 +7,11 @@
 
     <groupId>com.neustupov</groupId>
     <artifactId>com.neustupov.LearnJavaEE</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Chapter1</module>
+    </modules>
 
     <dependencies>
 
